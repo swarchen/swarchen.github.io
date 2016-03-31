@@ -1,5 +1,11 @@
 scss/*.scss
 scss/base/*.scss
+<<<<<<< HEAD
 scss/utilitied/*.scss
 node_modules/*
 bower_component/*
+=======
+scss/utilities/*.scss
+node_modules/*
+svg_file/*
+>>>>>>> b904354fb1bb86fa7d216d6296f25dc4cd7a9115

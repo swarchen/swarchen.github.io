@@ -3,12 +3,328 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Jhaocheng</title>
-	<link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
-	<link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap-theme.min.css">
+	<link rel="stylesheet" href="scss/main.css">
 </head>
 <body>
-	<script src="bower_components/jquery/dist/jquery.min.js"></script>
-	<script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
-	<script src="js/index.js"></script>
+	<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 768" preserveAspectRatio="xMidYMax">
+	
+	<g id="sun">
+		<circle id="sun_path" class="st1" cx="655.6" cy="337.9" r="273.8">
+			<animate dur="5s" attributeName="cy" from="10000" to="337.9" keyTimes="0;1" keySplines="0 0.55 .75 1" calcMode="spline"/>
+		</circle>
+	</g>
+	<g id="cloud">
+		<path id="cloud1_path" class="st2" d="M141.3,156.6c-10-7.3-23.6-4.6-29.4,4.3c-4.9,7.4-3.8,18.1,3.2,25.3
+			c-8.8,8.2-9.3,21.5-2.3,29.4c5.9,6.5,16.1,8.4,24.8,4.1c10.7,13,26.5,17,37,11.3c6.8-3.7,9.7-10.7,10.8-14c9.7,6.7,21.9,5,27.5-2.3
+			c5.9-7.6,2-18,1.8-18.5c10-1.5,17-10.5,16.3-19.9c-0.7-8.3-7.4-15.4-16.3-16.7c-0.8-8.8-6.6-16.4-14.9-19.4c-8.1-2.9-17.2-1-23.5,5
+			c-1.1-0.8-8.7-6.3-18.5-4.1C145.6,143.8,141.5,156,141.3,156.6z">
+			<animateTransform id="ca" attributeName="transform"
+                      attributeType="XML"
+                      type="translate"
+                      from="0,0"
+                      to="0,0"
+                      dur="2.8s"
+                      values="-1000,0; -1000,0;0,0"
+                      keyTimes="0;0.5;1"
+                      />
+            <animateTransform attributeName="transform"
+                      attributeType="XML"
+                      type="translate"
+                      from="0,0"
+                      to="0,0"
+                      dur="1"
+                      values="0,0; 30,0;0,0"
+                      keyTimes="0;0.5;1"
+                      begin="ca.end"
+                      repeatCount="indefinite"
+                      />
+		</path>
+		<path id="cloud2_path" class="st2" d="M1043.1,72.8c-17.8-12.6-38.2-7-43.4,3.5c-4,8.1,0,21.2,10.6,30.5c-9.5,13.6-5.5,30.5,4.7,36.4
+			c7.1,4.1,17.3,2.8,25.3-3.2c-2.1,18.2,8.7,35.2,25.1,40.7c18.2,6.1,39.1-3.4,46.9-22.3c22.2,12.2,48.1,8.5,62.2-7
+			c13.2-14.6,11-34.1,10.6-37.5c0.8-0.2,19.5-4.4,24.6-19.9c4.9-14.8-4.4-33.9-23.5-41c-16.6-15.9-39-20.3-55.1-11.7
+			c-10.4,5.5-15.5,15-17.6,19.9c-16-19-40.1-23.7-55.1-14.1C1046.4,54.7,1043.7,69.1,1043.1,72.8z">
+			<animateTransform attributeName="transform"
+                      attributeType="XML"
+                      type="translate"
+                      from="0,0"
+                      to="0,0"
+                      dur="2.8s"
+                      values="2000,0; 2000,0;0,0"
+                      keyTimes="0;0.5;1"
+                      />
+            <animateTransform attributeName="transform"
+                      attributeType="XML"
+                      type="translate"
+                      from="0,0"
+                      to="0,0"
+                      dur="0.8"
+                      values="0,0; 30,0;0,0"
+                      keyTimes="0;0.5;1"
+                      begin="ca.end"
+                      repeatCount="indefinite"
+                      />
+		</path>
+		<path id="cloud3_path" class="st2" d="M363.4,64.8c-10-7.3-23.6-4.6-29.4,4.3c-4.9,7.4-3.8,18.1,3.2,25.3c-8.8,8.2-9.3,21.5-2.3,29.4
+			c5.9,6.5,16.1,8.4,24.8,4.1c10.7,13,26.5,17,37,11.3c6.8-3.7,9.7-10.7,10.8-14c9.7,6.7,21.9,5,27.5-2.3c5.9-7.6,2-18,1.8-18.5
+			c10-1.5,17-10.5,16.3-19.9c-0.7-8.3-7.4-15.4-16.3-16.7c-0.8-8.8-6.6-16.4-14.9-19.4c-8.1-2.9-17.2-1-23.5,5
+			c-1.1-0.8-8.7-6.3-18.5-4.1C367.7,52,363.6,64.2,363.4,64.8z">
+			<animateTransform attributeName="transform"
+                      attributeType="XML"
+                      type="translate"
+                      from="0,0"
+                      to="0,0"
+                      dur="2.8s"
+                      values="-1000,0; -1000,0;0,0"
+                      keyTimes="0;0.5;1"
+                      />
+            <animateTransform attributeName="transform"
+                      attributeType="XML"
+                      type="translate"
+                      from="0,0"
+                      to="0,0"
+                      dur="0.7"
+                      values="0,0; 30,0;0,0"
+                      keyTimes="0;0.5;1"
+                      begin="ca.end"
+                      repeatCount="indefinite"
+                      />
+		</path>
+		<path id="cloud4_path" class="st2" d="M915.5,204c-10-7.3-23.6-4.6-29.4,4.3c-4.9,7.4-3.8,18.1,3.2,25.3c-8.8,8.2-9.3,21.5-2.3,29.4
+			c5.9,6.5,16.1,8.4,24.8,4.1c10.7,13,26.5,17,37,11.3c6.8-3.7,9.7-10.7,10.8-14c9.7,6.7,21.9,5,27.5-2.3c5.9-7.6,2-18,1.8-18.5
+			c10-1.5,17-10.5,16.3-19.9c-0.7-8.3-7.4-15.4-16.3-16.7c-0.8-8.8-6.6-16.4-14.9-19.4c-8.1-2.9-17.2-1-23.5,5
+			c-1.1-0.8-8.7-6.3-18.5-4.1C919.8,191.2,915.6,203.4,915.5,204z">
+			<animateTransform attributeName="transform"
+                      attributeType="XML"
+                      type="translate"
+                      from="0,0"
+                      to="0,0"
+                      dur="2.8s"
+                      values="2000,0; 2000,0;0,0"
+                      keyTimes="0;0.5;1"
+                      />
+            <animateTransform attributeName="transform"
+                      attributeType="XML"
+                      type="translate"
+                      from="0,0"
+                      to="0,0"
+                      dur="0.9"
+                      values="0,0; 30,0;0,0"
+                      keyTimes="0;0.5;1"
+                      begin="ca.end"
+                      repeatCount="indefinite"
+                      />
+		</path>
+	</g>
+	<g id="圖層_4">
+		<polygon id="mountain_1" class="st3" points="120.4,251.2 -100.6,598.7 325.8,598.7 	">
+		<animateTransform attributeName="transform"
+                      attributeType="XML"
+                      type="translate"
+                      from="0,500"
+                      to="0,0"
+                      dur="1.6s"
+                      values="0,1000; 0,1000;0,0"
+                      keyTimes="0;0.5;1"
+                      />
+		</polygon>
+		<polygon id="mountain_6" class="st4" points="618.5,424.9 397.5,772.4 823.8,772.4 	">
+		<animateTransform attributeName="transform"
+                      attributeType="XML"
+                      type="translate"
+                      from="0,500"
+                      to="0,0"
+                      dur="2.4s"
+                      values="0,1000; 0,1000;0,0"
+                      keyTimes="0;0.5;1"
+                      />
+		</polygon>
+		<polygon id="mountain_7" class="st5" points="831.7,337.9 610.7,685.4 1037,685.4 	">
+			<animateTransform attributeName="transform"
+                      attributeType="XML"
+                      type="translate"
+                      from="0,500"
+                      to="0,0"
+                      dur="2.3s"
+                      values="0,1000; 0,1000;0,0"
+                      keyTimes="0;0.5;1"
+                      />
+		</polygon>
+		<polygon id="mountain_2" class="st6" points="510.8,337.9 294.1,678.5 712,678.5 	">
+			<animateTransform attributeName="transform"
+                      attributeType="XML"
+                      type="translate"
+                      from="0,500"
+                      to="0,0"
+                      dur="1.8s"
+                      values="0,1000; 0,1000;0,0"
+                      keyTimes="0;0.5;1"
+                      />
+		</polygon>
+		<polygon id="mountain_3" class="st7" points="918.3,277 658.1,666.3 1159.9,666.3 	">
+			<animateTransform attributeName="transform"
+                      attributeType="XML"
+                      type="translate"
+                      from="0,500"
+                      to="0,0"
+                      dur="1.9s"
+                      values="0,1000; 0,1000;0,0"
+                      keyTimes="0;0.5;1"
+                      />
+		</polygon>
+		<polygon id="mountain_4" class="st8" points="1131.6,312.7 929.4,630.6 1319.5,630.6 	">
+			<animateTransform attributeName="transform"
+                      attributeType="XML"
+                      type="translate"
+                      from="0,500"
+                      to="0,0"
+                      dur="2.1s"
+                      values="0,1000; 0,1000;0,0"
+                      keyTimes="0;0.5;1"
+                      />
+		</polygon>
+		<polygon id="mountain_5" class="st8" points="331.3,344.6 174,598.7 477.6,598.7 	">
+			<animateTransform attributeName="transform"
+                      attributeType="XML"
+                      type="translate"
+                      from="0,500"
+                      to="0,0"
+                      dur="2.4s"
+                      values="0,1000; 0,1000;0,0"
+                      keyTimes="0;0.5;1"
+                      />
+		</polygon>
+		<polygon id="snow_2" class="st9" points="510.8,337.9 477.6,390.1 541.6,390.1 	">
+			<animateTransform id="sa2" attributeName="transform"
+                      attributeType="XML"
+                      type="translate"
+                      from="0,500"
+                      to="0,0"
+                      dur="1.8s"
+                      values="0,1000; 0,1000;0,0"
+                      keyTimes="0;0.5;1"
+                      />
+            <animateTransform attributeName="transform"
+                      attributeType="XML"
+                      type="translate"
+                      from="0,0"
+                      to="0,0"
+                      dur="0.2s"
+                      values="0,0; 0,-50;0,-5;0,0"
+                      keyTimes="0;0.4;0.9;1"
+                      begin="sa2.end"
+                      />
+		</polygon>
+		<polygon id="snow_3" class="st9" points="918.3,277 972.3,364 860.1,364 	">
+			<animateTransform id="sa3" attributeName="transform"
+                      attributeType="XML"
+                      type="translate"
+                      from="0,500"
+                      to="0,0"
+                      dur="1.9s"
+                      values="0,1000; 0,1000;0,0"
+                      keyTimes="0;0.5;1"
+                      />
+            <animateTransform attributeName="transform"
+                      attributeType="XML"
+                      type="translate"
+                      from="0,0"
+                      to="0,0"
+                      dur="0.2s"
+                      values="0,0; 0,-50;0,-5;0,0"
+                      keyTimes="0;0.4;0.9;1"
+                      begin="sa3.end"
+                      />
+		</polygon>
+		<polygon id="snow_4" class="st9" points="1131.6,312.7 1177.4,390.1 1082.4,390.1 	">
+			<animateTransform id="sa4" attributeName="transform"
+                      attributeType="XML"
+                      type="translate"
+                      from="0,500"
+                      to="0,0"
+                      dur="2.1s"
+                      values="0,1000; 0,1000;0,0"
+                      keyTimes="0;0.5;1"
+                      />
+            <animateTransform attributeName="transform"
+                      attributeType="XML"
+                      type="translate"
+                      from="0,0"
+                      to="0,0"
+                      dur="0.2s"
+                      values="0,0; 0,-50;0,-5;0,0"
+                      keyTimes="0;0.4;0.9;1"
+                      begin="sa4.end"
+                      />
+		</polygon>
+		<polygon id="snow_1" class="st9" points="120.4,251.2 156.8,312.7 81.3,312.7 	">
+			<animateTransform id="sa1" attributeName="transform"
+                      attributeType="XML"
+                      type="translate"
+                      from="0,500"
+                      to="0,0"
+                      dur="1.6s"
+                      values="0,1000; 0,1000;0,0"
+                      keyTimes="0;0.5;1"
+                      />
+            <animateTransform attributeName="transform"
+                      attributeType="XML"
+                      type="translate"
+                      from="0,0"
+                      to="0,0"
+                      dur="0.2s"
+                      values="0,0; 0,-50;0,-5;0,0"
+                      keyTimes="0;0.4;0.9;1"
+                      begin="sa1.end"
+                      />
+		</polygon>
+	</g>
+	<g id="hill2">
+		<path id="hill2_path" class="st10" d="M1612.3,768c0-60.4,0,0.2,0-60.2c-77.8-15.2-192.7-43-325.8-96.3
+			c-158.2-63.4-190-102.1-279.3-103.3c-127.7-1.8-170.5,77.4-344.1,155.2c-90.8,40.7-226.3,85.9-419.1,102.7
+			C589.4,766.7,1267,767.4,1612.3,768z"/>
+		<animateTransform attributeName="transform"
+                      attributeType="XML"
+                      type="translate"
+                      from="0,500"
+                      to="0,0"
+                      dur="1s"
+                      values="0,500; 0,500;0,-50;0,0"
+                      keyTimes="0;0.5;0.85;1"
+                      />
+	</g>
+	<g id="hill1">
+		<path id="hill1_path" class="st11" d="M-351.5,666.3V768h1963.7v-60.2c-225.8,12.6-722.2-39.3-830.5-70.6
+			c-249.1-72.1-392.5-243.9-590.5-183.3c-86,26.3-140.1,79.5-338.3,150.5C-231.7,634.9-303.3,654.4-351.5,666.3z"/>
+		<animateTransform attributeName="transform"
+                      attributeType="XML"
+                      type="translate"
+                      from="0,500"
+                      to="0,0"
+                      dur="0.5s"
+                      values="0,500; 0,100;0,-50;0,0"
+                      keyTimes="0;0.7;0.85;1"
+                      />
+	</g>
+	<g id="shadow">
+		<path id="shadow_path" class="st12" d="M741.2,624.7c15.5,11.2,34.1,22.7,55.9,33.5c75.1,37.2,332.6,69.5,380.3,72
+			c77.6,1.3,107-0.5,195.4-12.8c11.6-1.6,228.2-7.8,239.5-9.6c-81,5.7-470.4-14.7-596-33C928,661.9,800.9,643.7,741.2,624.7z"/>
+		<animateTransform attributeName="transform"
+                          attributeType="XML"
+                          type="translate"
+                          from="0,500"
+                          to="0,0"
+                          dur="0.5s"
+                          values="0,500; 0,100;0,-50;0,0"
+                          keyTimes="0;0.7;0.85;1"
+                          />
+	</g>
+
+	
+</svg>
+
+
+
+
+	</svg>
 </body>
 </html>

@@ -3,3 +3,4 @@ scss/base/*.scss
 scss/utilities/*.scss
 node_modules/*
 svg_file/*
+bower_components/*

@@ -8,10 +8,10 @@ $( document ).ready(function(){
 					$('#yang').fadeTo('slow', 0.9, function(){
 						$('#yang').fadeTo(1200, 0, function(){
 							$('#yang').css('display','none');
-							$('#mu').css('display','initial');
-							$('#mu').fadeTo('slow', 0.9, function(){
-								$('#mu').fadeTo(1200, 0, function(){
-									$('#mu').css('display','none');
+							$('#chi').css('display','initial');
+							$('#chi').fadeTo('slow', 0.9, function(){
+								$('#chi').fadeTo(1200, 0, function(){
+									$('#chi').css('display','none');
 									$('#cheng').css('display','initial');
 									$('#cheng').fadeTo('slow', 0.9);
 								});

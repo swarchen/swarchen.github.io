@@ -1,6 +1,10 @@
 body {
   margin: 0;
-  background: black; }
+  background: #DB644C;
+  font-family: graphik-extra-light, HelveticaNeue-Light, "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; }
+
+h1 {
+  font-family: graphik-extra-light, HelveticaNeue-Light, "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; }
 
 svg {
   background: #89c6bf;
@@ -45,5 +49,13 @@ svg {
 
 .st12 {
   fill: #D98429; }
+
+.name {
+  text-align: center; }
+  .name h1 {
+    font-size: 40vw;
+    color: #EBEFF0; }
+  .name #poetry {
+    font-size: 3vw; }
 
 /*# sourceMappingURL=main.css.map */

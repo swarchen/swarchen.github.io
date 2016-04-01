@@ -1,6 +1,10 @@
 body {
   margin: 0;
-  background: black; }
+  background: #DB644C;
+  font-family: "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; }
+
+h1 {
+  font-family: "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; }
 
 svg {
   background: #89c6bf;
@@ -45,5 +49,11 @@ svg {
 
 .st12 {
   fill: #D98429; }
+
+.name {
+  text-align: center; }
+  .name h1 {
+    font-size: 30vw;
+    color: #EBEFF0; }
 
 /*# sourceMappingURL=main.css.map */

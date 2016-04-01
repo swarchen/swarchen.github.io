@@ -1,3 +1,10 @@
+.name-banner {
+  margin: 0 auto;
+  background: #89c6bf;
+  border-radius: 100%;
+  height: 100px;
+  width: 100px; }
+
 body {
   margin: 0;
   background: #DB644C;

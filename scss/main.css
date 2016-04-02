@@ -93,10 +93,13 @@ a {
 .cv .ex-time {
   color: whitesmoke; }
 .cv .left-content {
-  text-align: right; }
+  text-align: right;
+  border-right: solid 1px;
+  border-color: rgba(0, 0, 0, 0.075); }
   @media screen and (max-width: 961px) {
     .cv .left-content {
-      text-align: left; } }
+      text-align: left;
+      border-right: none; } }
 .cv .right-content {
   text-align: left; }
 

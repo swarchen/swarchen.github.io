@@ -1,6 +1,7 @@
 $( document ).ready(function(){
-	$('#svg-region').fadeIn(1000);
-	console.log('ok');
+	setTimeout(function(){
+		$('#svg-region').show();
+	},500);
 	//clear svg region
 	setTimeout(function(){
 		$('.name-show').show();

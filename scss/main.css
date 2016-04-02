@@ -1,22 +1,38 @@
 .name-banner {
-  margin: 0 auto;
-  background: #89c6bf;
-  border-radius: 100%;
-  height: 100px;
-  width: 100px; }
+  position: static;
+  margin: 0 auto; }
+  .name-banner img {
+    width: 150px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%); }
+    @media screen and (max-width: 961px) {
+      .name-banner img {
+        width: 35vw; } }
 
 body {
   margin: 0;
   background: #DB644C;
   font-family: "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; }
 
-h1 {
-  font-family: "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; }
+h1, h2, h3, h5 {
+  font-family: "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  text-transform: uppercase; }
 
 svg {
   background: #89c6bf;
   height: 100vh;
   width: 100%; }
+
+/* unvisited link */
+a {
+  text-decoration: none; }
+  a:link {
+    color: #89c6bf; }
+  a:visited {
+    color: rgba(204, 204, 204, 0.51); }
+  a:hover {
+    color: #EBEFF0; }
 
 .st0 {
   fill: #85BFB9; }
@@ -62,5 +78,26 @@ svg {
   .name h1 {
     font-size: 30vw;
     color: #EBEFF0; }
+
+.cv h1 {
+  color: whitesmoke;
+  text-align: center;
+  letter-spacing: 5px; }
+.cv h3 {
+  letter-spacing: 5px; }
+.cv h5 {
+  color: rgba(204, 204, 204, 0.51);
+  text-align: center; }
+.cv .ex-title {
+  font-style: oblique; }
+.cv .ex-time {
+  color: whitesmoke; }
+.cv .left-content {
+  text-align: right; }
+  @media screen and (max-width: 961px) {
+    .cv .left-content {
+      text-align: left; } }
+.cv .right-content {
+  text-align: left; }
 
 /*# sourceMappingURL=main.css.map */

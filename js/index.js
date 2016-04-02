@@ -1,5 +1,5 @@
 $( document ).ready(function(){
-
+	$('#svg-region').fadeIn(1000);
 
 	//clear svg region
 	setTimeout(function(){

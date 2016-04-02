@@ -1,4 +1,6 @@
 $( document ).ready(function(){
+
+
 	//clear svg region
 	setTimeout(function(){
 		$('.name-show').show();
@@ -27,4 +29,5 @@ $( document ).ready(function(){
 			});
 		});
 	},12000)
+
 })

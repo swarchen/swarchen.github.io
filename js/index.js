@@ -1,4 +1,4 @@
-$( document ).ready(function(){
+$(window).load(function(){
 	$('.block-left').addClass(' animated bounceInLeft');
 	setTimeout(function () {
 		$('.block-title').show().addClass('animated bounceInLeft')},300)

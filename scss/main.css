@@ -1,106 +1,44 @@
-.name-banner {
-  position: static;
-  margin: 0 auto; }
-  .name-banner img {
-    width: 150px;
-    position: relative;
-    left: 50%;
-    transform: translateX(-50%); }
-    @media screen and (max-width: 961px) {
-      .name-banner img {
-        width: 35vw; } }
-
 body {
-  margin: 0;
-  background: #DB644C;
+  height: 100vh;
+  background: white;
   font-family: "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; }
 
-h1, h2, h3, h5 {
-  font-family: "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-  text-transform: uppercase; }
-
-svg {
-  background: #89c6bf;
+.main-container {
   height: 100vh;
+  height: 100%; }
+
+.blocks {
+  height: 100%;
   width: 100%; }
 
-/* unvisited link */
-a {
-  text-decoration: none; }
-  a:link {
-    color: #89c6bf; }
-  a:visited {
-    color: rgba(204, 204, 204, 0.51); }
-  a:hover {
-    color: #EBEFF0; }
+.block {
+  width: 49%;
+  height: 100%;
+  display: inline-block; }
 
-.st0 {
-  fill: #85BFB9; }
-
-.st1 {
-  fill: #DB644C; }
-
-.st2 {
-  fill: #FFFFFF; }
-
-.st3 {
-  fill: #939392; }
-
-.st4 {
-  fill: #72706E; }
-
-.st5 {
-  fill: #898680; }
-
-.st6 {
-  fill: #91908E; }
-
-.st7 {
-  fill: #8E8E8D; }
-
-.st8 {
-  fill: #777672; }
-
-.st9 {
-  fill: #EDEDED; }
-
-.st10 {
-  fill: #F8D4A6; }
-
-.st11 {
-  fill: #F1B757; }
-
-.st12 {
-  fill: #D98429; }
-
-.name {
-  text-align: center; }
-  .name h1 {
-    font-size: 30vw;
-    color: #EBEFF0; }
-
-.cv h1 {
-  color: whitesmoke;
+.block-left {
+  background-image: url(../images/profile.png);
+  background-size: cover;
   text-align: center;
-  letter-spacing: 5px; }
-.cv h3 {
-  letter-spacing: 5px; }
-.cv h5 {
-  color: rgba(204, 204, 204, 0.51);
-  text-align: center; }
-.cv .ex-title {
-  font-style: oblique; }
-.cv .ex-time {
-  color: whitesmoke; }
-.cv .left-content {
-  text-align: right;
-  border-right: solid 1px;
-  border-color: rgba(0, 0, 0, 0.075); }
-  @media screen and (max-width: 961px) {
-    .cv .left-content {
-      text-align: left;
-      border-right: none; } }
-.cv .right-content {
-  text-align: left; }
+  color: #EBEFF0;
+  font-size: 1.375rem; }
+
+.block-right {
+  color: #EBEFF0;
+  font-size: 1.375rem; }
+
+.block-inner {
+  width: 100%;
+  height: 100%;
+  padding: 3.125rem; }
+
+.block-content {
+  margin: 30% 0 0 0; }
+
+.block-title {
+  overflow: hidden;
+  color: #fff;
+  line-height: 1.35;
+  font-weight: 500; }
 
 /*# sourceMappingURL=main.css.map */

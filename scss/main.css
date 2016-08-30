@@ -1,5 +1,7 @@
 html {
-  font-size: 25%; }
+  font-size: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%; }
 
 body {
   height: 100vh;
@@ -25,7 +27,7 @@ body {
 
 .block-right {
   color: black;
-  font-size: 1.375rem;
+  font-size: .875rem;
   overflow: scroll; }
 
 .block-inner {
@@ -40,18 +42,15 @@ body {
   overflow: hidden;
   color: #fff;
   line-height: 1.35;
-  font-weight: 500; }
-  .block-title h1 {
-    font-size: 7rem; }
-  .block-title h2 {
-    font-size: 5rem; }
+  font-weight: 500;
+  font-size: 2.2rem; }
 
 .block-social {
   position: absolute;
   bottom: 30px; }
   .block-social a {
     color: white;
-    font-size: 5rem; }
+    font-size: 1.5rem; }
 
 em {
   color: #3ee6bf; }

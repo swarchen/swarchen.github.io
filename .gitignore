@@ -1,6 +1,7 @@
 scss/*.scss
 scss/base/*.scss
 scss/utilitied/*.scss
+scss/main.css.map
 node_modules/*
 bower_components/*
 svg_file/*

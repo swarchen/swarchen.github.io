@@ -18,26 +18,74 @@
     <link rel="stylesheet" href="bower_components/animate.css/animate.min.css">
     <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap-theme.min.css">
     <link rel="stylesheet" href="/bower_components/font-awesome/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
     <link rel="stylesheet" href="scss/main.css">
+
 </head>
 
 <body>
     <div class="main-container ">
         <div class="row blocks ">
-            <div class="col-md-6 col-sm-12 block block-left animated bounceInLeft">
+            <div class="block block-left col-md-6 col-xs-12 ">
                 <div class="block-inner">
                     <div class="block-content">
-                        <h1 class="block-title">
+                        <h1 class="block-title" style="display:none">
                             <span>Hey, I'm Jhao Cheng</span>
                         </h1>
-                        <h2 class="block-title">
+                        <h2 class="block-title" style="display:none">
                             <span>a <em>web developer</em><br>from <em>Matsu</em></span>
                         </h2>
                     </div>
+                    <div class="block-social" style="display:none">
+                        <a href="http://www.facebook.com/wu.jhaocheng" TARGET="_blank" onclick="amplitude.logEvent('facebook');"><i class="fa fa-facebook-square fa-lg"></i></a>
+                        <a href="http://tw.linkedin.com/in/jhaochengwu" TARGET="_blank" onclick="amplitude.logEvent('linkedin');"><i class="fa fa-linkedin-square fa-lg"></i></a>
+                        <a href="http://github.com/swarchen" TARGET="_blank" onclick="amplitude.logEvent('github');"><i class="fa fa-github-square fa-lg"></i></a>
+                    </div>
                 </div>
             </div>
-            <div class="col-md-6 col-sm-12 block block-right">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto facere illo pariatur consequuntur dignissimos in incidunt, dolor alias adipisci dicta similique dolorum praesentium ut itaque quaerat ex atque laboriosam laborum.
+            <div class=" block block-right col-md-6 col-xs-12">
+                <div class="block-inner">
+                    <div class="row content" style="display:none">
+                        <div class="content-about">
+                            <div class="col-md-2 content-label"><em>WHO?</em></div>
+                            <div class="col-md-10 content-inner">Hey! I'm Jhao Cheng, graduated student in National Tsing Hua University. Master in Electrical Engineering</div>
+                            <div class="col-md-2 content-label"><em>WHAT?</em></div>
+                            <div class="col-md-10 content-inner">
+                                <div class="project">
+                                    <h3 class="project-title">
+                                        <a href="http://utopia-taipei.neocities.org" TARGET="_blank" onclick="amplitude.logEvent('utopia');">Utopia Taipei (HackNTU project)</a>
+                                    </h3>
+                                    <p class="project-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio, voluptates!</p>
+                                </div>
+                                <div class="project">
+                                    <h3 class="project-title">
+                                        <a href="http://slides.com/jhaochengwu/deck" TARGET="_blank" onclick="amplitude.logEvent('CP_final');">Ptt Trend analytic website</a>
+                                    </h3>
+                                    <p class="project-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio, voluptates!</p>
+                                </div>
+                                <div class="project">
+                                    <h3 class="project-title">
+                                        <a href="https://github.com/swarchen/fb-handsome-beauty" TARGET="_blank" onclick="amplitude.logEvent('fb-handsome');">FB handsome & beauty rank website</a>
+                                    </h3>
+                                    <p class="project-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio, voluptates!</p>
+                                </div>
+                                <div class="project">
+                                    <h3 class="project-title">
+                                        <a href="https://github.com/swarchen/facebook-event-crawler" TARGET="_blank" onclick="amplitude.logEvent('fb-crawler');">FB event feeds crawler using Graph API</a>
+                                    </h3>
+                                    <p class="project-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio, voluptates!</p>
+                                </div>
+                                <div class="project">
+                                    <h3 class="project-title">
+                                        <a href="https://www.youtube.com/watch?v=lo1uYvAbXaI" TARGET="_blank" onclick="amplitude.logEvent('RedBull');">RedBull Europe Contest Video</a>
+                                    </h3>
+                                    <p class="project-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio, voluptates!</p>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>

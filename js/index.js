@@ -1,4 +1,8 @@
+$(function() {
+	NProgress.start();
+});
 $(window).load(function(){
+	NProgress.done();
 	$('.block-left').show().addClass(' animated bounceInLeft');
 	setTimeout(function () {
 		$('.block-title').show().addClass('animated bounceInLeft')},300)

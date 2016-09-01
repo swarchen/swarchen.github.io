@@ -88,14 +88,22 @@ em {
   line-height: 1.25;
   margin: .0625rem 0 0; }
   .project-title a {
+    color: #e47272;
     text-decoration: none; }
   .project-title a:hover {
     color: #8be4d0; }
 
 .project-subtitle {
-  font-size: .8rem; }
+  font-size: .8rem;
+  margin: 5px 0; }
 
 .skills i {
   color: #e47272; }
+
+.contacts a {
+  color: #e47272;
+  text-decoration: none; }
+.contacts a:hover {
+  color: #8be4d0; }
 
 /*# sourceMappingURL=main.css.map */

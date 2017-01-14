@@ -42,10 +42,10 @@ mixpanel.init("0e2bcdeca8619604311ce659978cf56e");</script><!-- end Mixpanel -->
                         </h2>
                     </div>
                     <div class="block-social" style="display:none">
-                        <a href="http://www.facebook.com/wu.jhaocheng" TARGET="_blank" onclick="amplitude.logEvent('facebook');"><i class="fa fa-facebook-square fa-lg"></i></a>
-                        <a href="http://tw.linkedin.com/in/jhaochengwu" TARGET="_blank" onclick="amplitude.logEvent('linkedin');"><i class="fa fa-linkedin-square fa-lg"></i></a>
-                        <a href="http://github.com/swarchen" TARGET="_blank" onclick="amplitude.logEvent('github');"><i class="fa fa-github-square fa-lg"></i></a>
-                        <a href="http://swarchen.github.io/Blog" TARGET="_blank" onclick="amplitude.logEvent('blog');"><i class="fa fa-pencil-square fa-lg"></i></a>
+                        <a href="http://www.facebook.com/wu.jhaocheng" TARGET="_blank" onclick="mixpanel.track('facebook');"><i class="fa fa-facebook-square fa-lg"></i></a>
+                        <a href="http://tw.linkedin.com/in/jhaochengwu" TARGET="_blank" onclick="mixpanel.track('linkedin');"><i class="fa fa-linkedin-square fa-lg"></i></a>
+                        <a href="http://github.com/swarchen" TARGET="_blank" onclick="mixpanel.track('github');"><i class="fa fa-github-square fa-lg"></i></a>
+                        <a href="http://swarchen.github.io/Blog" TARGET="_blank" onclick="mixpanel.track('blog');"><i class="fa fa-pencil-square fa-lg"></i></a>
                     </div>
                 </div>
             </div>
@@ -96,7 +96,7 @@ mixpanel.init("0e2bcdeca8619604311ce659978cf56e");</script><!-- end Mixpanel -->
                                 <!-- Utopia Taipei (HackNTU project) -->
                                 <div class="project">
                                     <h3 class="project-title">
-                                        <a href="http://utopia-taipei.neocities.org" TARGET="_blank" onclick="amplitude.logEvent('utopia');"><i class="fa fa-external-link"></i> Utopia Taipei (HackNTU project)</a>
+                                        <a href="http://utopia-taipei.neocities.org" TARGET="_blank" onclick="mixpanel.track('utopia');"><i class="fa fa-external-link"></i> Utopia Taipei (HackNTU project)</a>
                                     </h3>
                                     <h4 class="project-subtitle">fabric.js / jQuery</h4>
                                     <p class="project-description">Design, and share your neighborhood park in browser! Add trees, playground or even gatherings. Learn how your decisions can impact your community.</p>
@@ -104,7 +104,7 @@ mixpanel.init("0e2bcdeca8619604311ce659978cf56e");</script><!-- end Mixpanel -->
                                 <!-- Ptt Trend analytic website -->
                                 <div class="project">
                                     <h3 class="project-title">
-                                        <a href="http://slides.com/jhaochengwu/deck" TARGET="_blank" onclick="amplitude.logEvent('CP_final');"><i class="fa fa-external-link"></i> Ptt Trend analytic website</a>
+                                        <a href="http://slides.com/jhaochengwu/deck" TARGET="_blank" onclick="mixpanel.track('CP_final');"><i class="fa fa-external-link"></i> Ptt Trend analytic website</a>
                                     </h3>
                                     <h4 class="project-subtitle">D3.js / AWS / MEAN Stack</h4>
                                     <p class="project-description">Collected 30,000 PTT gossip broad topics and analyse those data. Use <em>D3.js</em> to visualize the trend. </p>
@@ -112,7 +112,7 @@ mixpanel.init("0e2bcdeca8619604311ce659978cf56e");</script><!-- end Mixpanel -->
                                 <!-- FB event feeds crawler using Graph API -->
                                 <div class="project">
                                     <h3 class="project-title">
-                                        <a href="https://github.com/swarchen/facebook-event-crawler" TARGET="_blank" onclick="amplitude.logEvent('fb-crawler');"><i class="fa fa-external-link"></i> FB feeds crawler using Graph API</a>
+                                        <a href="https://github.com/swarchen/facebook-event-crawler" TARGET="_blank" onclick="mixpanel.track('fb-crawler');"><i class="fa fa-external-link"></i> FB feeds crawler using Graph API</a>
                                     </h3>
                                     <h4 class="project-subtitle">Graph API / MongoDB </h4>
                                     <p class="project-description">Learned how to crawl facebook news feeds,comments and likes by <em>Graph API</em>. And save those data to <em>MongoDB</em>.</p>
@@ -120,7 +120,7 @@ mixpanel.init("0e2bcdeca8619604311ce659978cf56e");</script><!-- end Mixpanel -->
                                 <!-- FB handsome & beauty rank website -->
                                 <div class="project">
                                     <h3 class="project-title">
-                                        <a href="https://github.com/swarchen/fb-handsome-beauty" TARGET="_blank" onclick="amplitude.logEvent('fb-handsome');"><i class="fa fa-external-link"></i> FB handsome & beauty rank website</a>
+                                        <a href="https://github.com/swarchen/fb-handsome-beauty" TARGET="_blank" onclick="mixpanel.track('fb-handsome');"><i class="fa fa-external-link"></i> FB handsome & beauty rank website</a>
                                     </h3>
                                     <h4 class="project-subtitle">AWS Elastic Beanstalk / MEAN Stack / Google Analytics </h4>
                                     <p class="project-description">Use the data from facebook to build up a website that shows the statistics of facebook event. It has been viewed by more than 10,000 people in 3 days.</p>
@@ -128,7 +128,7 @@ mixpanel.init("0e2bcdeca8619604311ce659978cf56e");</script><!-- end Mixpanel -->
                                 <!-- Boocmarc (Angular fullstack project) -->
                                 <div class="project">
                                     <h3 class="project-title">
-                                        <a href="https://github.com/swarchen/BoocMarc" TARGET="_blank" onclick="amplitude.logEvent('boocmarc');"><i class="fa fa-external-link"></i> Boocmarc (Angular fullstack project)</a>
+                                        <a href="https://github.com/swarchen/BoocMarc" TARGET="_blank" onclick="mixpanel.track('boocmarc');"><i class="fa fa-external-link"></i> Boocmarc (Angular fullstack project)</a>
                                     </h3>
                                     <h4 class="project-subtitle">MEAN Stack</h4>
                                     <p class="project-description">A book discussion forum.You can discuss contents of the book targeting specific pages.It is built using <em>MEAN stack</em>.</p>
@@ -136,7 +136,7 @@ mixpanel.init("0e2bcdeca8619604311ce659978cf56e");</script><!-- end Mixpanel -->
                                 <!-- RedBull Europe Contest Video -->
                                 <div class="project">
                                     <h3 class="project-title">
-                                        <a href="https://www.youtube.com/watch?v=lo1uYvAbXaI" TARGET="_blank" onclick="amplitude.logEvent('RedBull');"><i class="fa fa-external-link"></i> RedBull Europe Contest Video</a>
+                                        <a href="https://www.youtube.com/watch?v=lo1uYvAbXaI" TARGET="_blank" onclick="mixpanel.track('RedBull');"><i class="fa fa-external-link"></i> RedBull Europe Contest Video</a>
                                     </h3>
                                     <h4 class="project-subtitle">After Effect / Photoshop</h4>
                                     <p class="project-description">A video editing project we put together to apply for 'Red Bull Can You Make It' event. To have an Adventure of a Lifetime.</p>
@@ -183,10 +183,10 @@ mixpanel.init("0e2bcdeca8619604311ce659978cf56e");</script><!-- end Mixpanel -->
                             <div class="col-md-2 content-label"><em>Contacts</em></div>
                             <div class="col-md-10 content-inner">
                             <div class="contacts">
-                                <i class="fa fa-facebook-square fa-lg"></i> <a href="http://www.facebook.com/wu.jhaocheng" TARGET="_blank" onclick="amplitude.logEvent('facebook-bt');">facebook.com/wu.jhaocheng</a>
-                                <br><i class="fa fa-linkedin-square fa-lg"></i> <a href="http://tw.linkedin.com/in/jhaochengwu" TARGET="_blank" onclick="amplitude.logEvent('linkedin-bt');">tw.linkedin.com/in/jhaochengwu</a>
-                                <br><i class="fa fa-github-square fa-lg"></i> <a href="http://github.com/swarchen" TARGET="_blank" onclick="amplitude.logEvent('github-bt');">github.com/swarchen</a>
-                                <br><i class="fa fa-pencil-square fa-lg"></i> <a href="http://swarchen.github.io/Blog" TARGET="_blank" onclick="amplitude.logEvent('blog-bt');">swarchen.github.io/Blog</a>
+                                <i class="fa fa-facebook-square fa-lg"></i> <a href="http://www.facebook.com/wu.jhaocheng" TARGET="_blank" onclick="mixpanel.track('facebook-bt');">facebook.com/wu.jhaocheng</a>
+                                <br><i class="fa fa-linkedin-square fa-lg"></i> <a href="http://tw.linkedin.com/in/jhaochengwu" TARGET="_blank" onclick="mixpanel.track('linkedin-bt');">tw.linkedin.com/in/jhaochengwu</a>
+                                <br><i class="fa fa-github-square fa-lg"></i> <a href="http://github.com/swarchen" TARGET="_blank" onclick="mixpanel.track('github-bt');">github.com/swarchen</a>
+                                <br><i class="fa fa-pencil-square fa-lg"></i> <a href="http://swarchen.github.io/Blog" TARGET="_blank" onclick="mixpanel.track('blog-bt');">swarchen.github.io/Blog</a>
                             </div>
                             </div>
                         </div>
